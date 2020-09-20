@@ -1,0 +1,174 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    background:#22242a;
+    padding: 20px;
+    width:100%;
+    height: 30px;
+}
+.left{
+    color:white;
+    margin:0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: -12px;
+
+
+}
+.left span{
+    color:green;
+}
+.right{
+    float: right;
+}
+
+.right .icon {
+    margin-top: -50px;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    right: 150px;
+
+}
+.right .icon i{
+    padding:0 1rem;}
+.right .badge{
+    font-size: x-small;
+    padding: 4px;
+    background: #00BCD4;
+    border-radius: 50%;
+    margin-top: -6px;
+    position: absolute;
+    margin-left: 8px;
+}
+.logout-btn{
+    padding:5px 15px;
+    background: green;
+    text-decoration: none;
+    margin-top: -50px;
+    float: right;
+    margin-right:40px;
+    font-size: 15px;
+    font-weight: 600;
+    color:white;
+}
+
+.logout-btn:hover{
+    background:white;
+    color:green;
+    transition: 1s all;
+}
+
+.sidebar{
+    background: green;
+    margin-top:70px;  
+    padding-top: 30px;
+    position: fixed;
+    left:0;
+    width:250px;
+    height:100%;  
+    text-align: center;
+}
+.sidebar img{
+    width:100px;
+    height: auto;
+    border-radius: 50%;
+    margin:auto;
+    border:15px solid #558955f0;
+    
+}
+.sidebar h4{
+    color:white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.sidebar a{
+    display: block;
+    color:white;
+    text-decoration: none;
+width:100%;
+box-sizing: border-box;
+padding-left: 20px;
+text-align: start;
+/* margin-bottom: 2rem; */
+line-height: 60px;
+transition: .5s all;
+text-transform: capitalize;
+}
+.sidebar a:hover{
+    background: #558955f0;
+}
+.sidebar a i{
+    margin-right: 1rem;
+    font-size: 20px;
+}
+.left h3 img{
+    width: 40px;
+    vertical-align: middle;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* line-height: 18px; */
+    margin-top: -10px;
+}
+
+/* dashboard content start */
+.content{
+    margin-left: 250px;
+    height: 100vh;
+    margin-top:70px;  
+position: fixed;
+width:100%;
+padding: .5rem;
+text-align: center;
+}
+.content .bud-info{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+.content .bud-info a{
+    width:25%;
+    background:rgb(100, 168, 100);
+margin:10px;
+color:white;
+
+}
+.content a.blue{
+    background: #77ba99c9;
+}
+
+.content a.pink{
+    background: #a45f6eb0;
+}
+.content a.orange{
+    background: #ef9738c9;
+}
+.content h1{
+    margin:1rem;
+    color:#eeeeee;
+    text-align: start;
+}
+.content h3,
+.content h5{
+    text-align: start;
+    margin:1rem;
+    text-transform: capitalize;
+}
+.content .card i{
+    position: relative;
+    font-size: 8rem;
+    margin-top: -40%;
+    color: #a1727c7d;
+    z-index: -100;
+    transform: translate(60%,-20%);
+}
+/* dashboard content end */
